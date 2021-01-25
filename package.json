@@ -15,6 +15,7 @@
     "build:docs": "vue-cli-service build --dest docs --mode production",
     "build:lib": "vue-cli-service build --target lib ./src/VuePhoneNumberInput/index.vue",
     "publish-npm:beta": "npm publish --tag beta",
+    "prepare": "npm run build",
     "serve:build": "vue-cli-service serve --mode production",
     "test:unit": "vue-cli-service test:unit",
     "test:unit:watch": "vue-cli-service test:unit --watch",
