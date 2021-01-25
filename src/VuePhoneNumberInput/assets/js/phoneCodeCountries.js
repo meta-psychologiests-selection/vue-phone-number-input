@@ -1245,7 +1245,14 @@ const allCountries = [
    '358',
    1
  ]
-]
+].sort(function (a, b) {
+  if (a[0] > b[0]) {
+    return 1;
+  }else if (a[0] < b[0]) {
+    return -1;
+  }
+  return 0;
+})
 
 
 export const countriesIso = allCountries.map(country => country[1].toUpperCase())
