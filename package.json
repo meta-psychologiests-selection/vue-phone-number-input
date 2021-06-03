@@ -3,10 +3,6 @@
   "version": "1.1.10",
   "description": "A phone number input made with Vue JS && libphonenumber-js",
   "author": "Louis Mazel <me@loicmazuel.com>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/meta-psychologiests-selection/vue-phone-number-input.git"
-  },
   "scripts": {
     "serve": "vue-cli-service serve --mode development --open",
     "serve:nuxt": "nuxt src",
@@ -75,15 +71,11 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "license": "MIT",
-  "main": "dist/vue-phone-number-input.common.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LouisMazel/vue-phone-number-input.git"
+    "url": "git://github.com/meta-psychologiests-selection/vue-phone-number-input.git"
   },
-  "bugs": {
-    "url": "https://github.com/LouisMazel/vue-phone-number-input/issues"
-  },
-  "homepage": "https://github.com/LouisMazel/vue-phone-number-input#readme",
+  "license": "MIT",
+  "main": "dist/vue-phone-number-input.common.js",
   "types": "dist/index.d.ts"
 }
